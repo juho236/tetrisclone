@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tetris</title>
+</head>
+<body>
+    <div id="game" class="main">
+        
+    </div>
+    
+    <div class="frame" id="score">
+        <p class="text">Score :</p>
+        <p class="text" id="scoretext">0</p>
+    </div>
+    <div onmousedown="down('playagain')" onmouseup="up('playagain')" onclick="playagain()" class="button" id="playagain" style="display:none; top:calc(50% + 60px); right:calc(50% + 30px);">
+        <p class="text">Play again</p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
